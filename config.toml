@@ -1,0 +1,68 @@
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Alisson Naimayer"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+title = "Alisson Naimayer"
+author = "Alisson Naimayer"
+description = "Fullstack developer"
+profilePicture = "images/alisson.jpg"
+keywords = ""
+#favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/aler93"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/alisson.nmr/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:anaimayer3@gmail.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 300
+  identifier = "contact"
+  url = "/contact/"
+  
+  [[menu.main]]
+  name = "Resumé"
+  weight = 300
+  identifier = "resume"
+  url = "/post/resume"
